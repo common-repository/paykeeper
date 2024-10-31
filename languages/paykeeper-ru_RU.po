@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayKeeper Payment Plugin\n"
+"POT-Creation-Date: 2015-09-16 11:22+0300\n"
+"PO-Revision-Date: 2023-10-16 15:23+0300\n"
+"Last-Translator: \n"
+"Language-Team: PayKeeper development department <support@paykeeper.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: PayKeeper\n"
+"X-Poedit-SearchPath-0: paykeeper-ru_RU.txt\n"
+
+#: ../paykeeper-gateway-class.php:43
+msgid "PayKeeper"
+msgstr "PayKeeper"
+
+#: ../paykeeper-gateway-class.php:44
+msgid "Allows Payments via the PayKeeper gateway"
+msgstr "Приём платежей обеспечивается платёжной платформой PayKeeper"
+
+#: ../paykeeper-gateway-class.php:59
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: ../paykeeper-gateway-class.php:61
+msgid "Enable PayKeeper Gateway"
+msgstr "Включить PayKeeper"
+
+#: ../paykeeper-gateway-class.php:65
+msgid "PayKeeper server URL"
+msgstr "Платежная форма PayKeeper"
+
+#: ../paykeeper-gateway-class.php:67
+msgid "Your PayKeeper server URL"
+msgstr "Ссылка на платежную форму PayKeeper"
+
+#: ../paykeeper-gateway-class.php:71
+msgid "PayKeeper secret word"
+msgstr "Секретное слово"
+
+#: ../paykeeper-gateway-class.php:73
+msgid "Your PayKeeper secret word"
+msgstr "Ваше секретное слово на странице настроек уведомления о платежах"
+
+#: ../paykeeper-gateway-class.php:77
+msgid "Force discounts check"
+msgstr "Принудительный учет скидок"
+
+#: ../paykeeper-gateway-class.php:79
+msgid "If option is enabled, discounts will be checked anyway. Please, report about this option to support@paykeeper.ru"
+msgstr "Если эта опция включена, скидки будут учтены принудительно. Пожалуйста, сообщите об этом службе техподдержки по адресу support@paykeeper.ru"
+
+#: ../paykeeper-gateway-class.php:83
+msgid "Autocomplete order"
+msgstr "Автозавершение заказа"
+
+#: ../paykeeper-gateway-class.php:86
+msgid "If this option is enabled, then upon successful payment, the order will be assigned the status completed"
+msgstr "Если эта опция включена, то при успешной оплате , заказа будет присвоен статус завершен"
+
+#: ../paykeeper-gateway-class.php:89
+msgid "Back to order view"
+msgstr "Возвращение после оплаты на страницу заказа"
+
+#: ../paykeeper-gateway-class.php:92
+msgid "If this option is enabled, after payment, customer will be sent to specific page view-order"
+msgstr "Если эта опция активна, после оплаты покупатель вернется на специальную страницу view-order"
+
+#: ../paykeeper-gateway-class.php:96
+msgid "Title"
+msgstr "Наименование"
+
+#: ../paykeeper-gateway-class.php:98
+msgid "Name of the payment system when paying"
+msgstr "Наименование платежной системы при оплате"
+
+#: ../paykeeper-gateway-class.php:99
+msgid "Payment by Visa/MasterCard online"
+msgstr "Оплата картами Visa/MasterCard онлайн"
+
+#: ../paykeeper-gateway-class.php:102
+msgid "Description"
+msgstr "Описание"
+
+#: ../paykeeper-gateway-class.php:104
+msgid "Description of payment system"
+msgstr "Описание платежной системы"
+
+#: ../paykeeper-gateway-class.php:105
+msgid "Payments via the PayKeeper gateway"
+msgstr "Приём платежей обеспечивает платёжная платформа PayKeeper"
+
+#: ../paykeeper-gateway-class.php:108
+msgid "Icon"
+msgstr "Логотип платежной системы"
+
+#: ../paykeeper-gateway-class.php:110
+msgid "The icon for this checkout option"
+msgstr "Адрес логотипа платежной системы"
+
+#: ../paykeeper-gateway-class.php:111
+msgid "/wp-content/plugins/paykeeper/visa_mastercard_wordpress.png"
+msgstr "/wp-content/plugins/paykeeper/visa_mastercard_wordpress.png"
+
+#: ../paykeeper-gateway-class.php:114
+msgid "Notify link"
+msgstr "Адрес уведомления"
+
+#: ../paykeeper-gateway-class.php:117
+msgid "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification"
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице уведомления о платежах, она нужна для уведомления сайта сервисом об успешном платеже"
+
+#: ../paykeeper-gateway-class.php:118
+msgid "Success link"
+msgstr "Успешный переход"
+
+#: ../paykeeper-gateway-class.php:121
+msgid "Copy and paste this link to your config at PayKeeper account as success payment redirect"
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице адресов перенаправления. Это ссылка для перехода при успешном платеже"
+
+#: ../paykeeper-gateway-class.php:124
+msgid "Failed link"
+msgstr "Переход при ошибке"
+
+#: ../paykeeper-gateway-class.php:125
+msgid "Copy and paste this link to your config at PayKeeper account as failed payment redirect"
+msgstr "Скопируйте и вставьте эту ссылку в личном кабинете PayKeeper на странице адресов перенаправления. Это ссылка для перехода в случае, когда произошла ошибка при проведении платежа"

@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayKeeper Payment Plugin\n"
+"POT-Creation-Date: 2015-09-16 11:22+0300\n"
+"PO-Revision-Date: 2015-09-17 18:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: Aleksandr Datsko <info@asdat.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: PayKeeper\n"
+"X-Poedit-SearchPath-0: paykeeper-ru_RU.txt\n"
+
+#: ../paykeeper-gateway-class.php:43
+msgid "PayKeeper"
+msgstr "PayKeeper"
+
+#: ../paykeeper-gateway-class.php:44
+msgid "Allows Payments via the PayKeeper gateway."
+msgstr "Allows Payments via the PayKeeper gateway."
+
+#: ../paykeeper-gateway-class.php:61
+msgid "Enable PayKeeper Gateway"
+msgstr "Enable PayKeeper Gateway"
+
+#: ../paykeeper-gateway-class.php:65
+msgid "PayKeeper server URL"
+msgstr "PayKeeper server URL"
+
+#: ../paykeeper-gateway-class.php:67
+msgid "Your PayKeeper server URL."
+msgstr "Your PayKeeper server URL."
+
+#: ../paykeeper-gateway-class.php:71
+msgid "PayKeeper secret word"
+msgstr "PayKeeper secret word"
+
+#: ../paykeeper-gateway-class.php:73
+msgid "Your PayKeeper secret word."
+msgstr "Your PayKeeper secret word."
+
+#: ../paykeeper-gateway-class.php:77
+msgid "Force discounts check"
+msgstr "Force discounts check"
+
+#: ../paykeeper-gateway-class.php:79
+msgid "If option is enabled, discounts will be checked anyway. Please, report about this option to support@paykeeper.ru"
+msgstr "If option is enabled, discounts will be checked anyway. Please, report about this option to support@paykeeper.ru"
+
+#: ../paykeeper-gateway-class.php:83
+msgid "Autocomplete order"
+msgstr "Autocomplete order"
+
+#: ../paykeeper-gateway-class.php:86
+msgid "If this option is enabled, then upon successful payment, the order will be assigned the status completed"
+msgstr "If this option is enabled, then upon successful payment, the order will be assigned the status completed"
+
+#: ../paykeeper-gateway-class.php:89
+msgid "Back to order view"
+msgstr "Back to order view"
+
+#: ../paykeeper-gateway-class.php:92
+msgid "If this option is enabled, after payment, customer will be sent to specific page view-order"
+msgstr "If this option is enabled, after payment, customer will be sent to specific page view-order"
+
+#: ../paykeeper-gateway-class.php:96
+msgid "Title"
+msgstr "Title"
+
+#: ../paykeeper-gateway-class.php:98
+msgid "Name of the payment system when paying."
+msgstr "Name of the payment system when paying."
+
+#: ../paykeeper-gateway-class.php:99
+msgid "Payment by Visa/MasterCard online."
+msgstr "Payment by Visa/MasterCard online."
+
+#: ../paykeeper-gateway-class.php:102
+msgid "Description"
+msgstr "Description"
+
+#: ../paykeeper-gateway-class.php:104
+msgid "Description of payment system."
+msgstr "Description of payment system."
+
+#: ../paykeeper-gateway-class.php:105
+msgid "Payments via the PayKeeper gateway"
+msgstr "Payments via the PayKeeper gateway"
+
+#: ../paykeeper-gateway-class.php:108
+msgid "Icon"
+msgstr "Icon"
+
+#: ../paykeeper-gateway-class.php:110
+msgid "The icon for this checkout option."
+msgstr "The icon for this checkout option."
+
+#: ../paykeeper-gateway-class.php:111
+msgid "/wp-content/plugins/woocommerce-paykeeper/visa_mastercard_wordpress.png"
+msgstr "/wp-content/plugins/woocommerce-paykeeper/visa_mastercard_wordpress.png"
+
+#: ../paykeeper-gateway-class.php:114
+msgid "Notify link"
+msgstr "Notify link"
+
+#: ../paykeeper-gateway-class.php:117
+msgid "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification."
+msgstr "Copy and paste this link to your config at PayKeeper account as notify link for server-server notification."
+
+#: ../paykeeper-gateway-class.php:118
+msgid "Success link"
+msgstr "Success link"
+
+#: ../paykeeper-gateway-class.php:121
+msgid "Copy and paste this link to your config at PayKeeper account as success payment redirect."
+msgstr "Copy and paste this link to your config at PayKeeper account as success payment redirect."
+
+#: ../paykeeper-gateway-class.php:124
+msgid "Failed link"
+msgstr "Failed link"
+
+#: ../paykeeper-gateway-class.php:125
+msgid "Copy and paste this link to your config at PayKeeper account as failed payment redirect."
+msgstr "Copy and paste this link to your config at PayKeeper account as failed payment redirect."
+
